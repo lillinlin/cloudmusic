@@ -5,7 +5,7 @@ const _audio = document.querySelector('._audio')
 const _voice = document.querySelector('._voice')
 
 // 音频设置
-audio.src = "./audio/當山みれい - 春夏秋冬 reprise.mp3"
+audio.src = "./audio/Athletics---III.mp3"
 audio.controls = false
 audio.loop = true
 audio.volume = 0.3
