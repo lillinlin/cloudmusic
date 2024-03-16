@@ -133,8 +133,8 @@ items.forEach((items) => {
 // 获取推荐歌曲  切歌功能
 const image = document.querySelector('._img')
 const recm_list = document.querySelectorAll('.recm_list ul li')
-const audio_list = ['Episode 33', 'Dehors', 'Rollin', ''Blinding Lights', 'Careless Whisper']
-const image_list = ['Episode 33', 'Dehors', 'Rollin', ''Blinding Lights', 'Careless Whisper']
+const audio_list = ['Episode 33', 'Dehors', 'Rollin', 'Blinding Lights', 'Careless Whisper']
+const image_list = ['Episode 33', 'Dehors', 'Rollin', 'Blinding Lights', 'Careless Whisper']
 // ftleft 切哥后对应的图片歌名和歌手名称也需要切换
 const songName = document.querySelector('.songName')
 const singer = document.querySelector('.singer')
