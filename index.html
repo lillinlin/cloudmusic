@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLindarr</title>
+    <title>cloud music</title>
     <link rel="icon" href="image/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/font_header.css">
     <link rel="stylesheet" href="./css/font_leftBox.css">
     <link rel="stylesheet" href="css/font_footer.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css"> 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2423613667144287"
       crossorigin="anonymous"></script>
     <style>
@@ -21,16 +21,6 @@
             width: 100%;
             height: 100%;
         }
-        /* 如果你的 .container 设置了背景或者有固定的尺寸，可能会影响雪花。 */
-        /* 为了确保雪花在最上层，给 .snow 一个高 z-index。 */
-        /* 在你的 index.css 中添加或确认以下规则： */
-        /*
-        .snow {
-            position: absolute;
-            z-index: 9999; // 确保雪花在其他内容之上
-            // 其他雪花样式保持不变
-        }
-        */
     </style>
 </head>
 <body>
@@ -206,16 +196,5 @@
         </div>
     </div>
     <script src="./js/listen.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const numSnowflakes = 200;
-            const body = document.body;
-            for (let i = 0; i < numSnowflakes; i++) {
-                const snowDiv = document.createElement('div');
-                snowDiv.classList.add('snow');
-                body.appendChild(snowDiv);
-            }
-        });
-    </script>
-</body>
+    </body>
 </html>
